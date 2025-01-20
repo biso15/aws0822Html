@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* 초기화 */
+body,
+html,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 커스텀 */
+.menu-box-1 {
+  text-align: center;
+}
+.menu-box-1 ul { 
+  background-color: #afafaf;
+}
+.menu-box-1 > ul {
+  padding: 0 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.menu-box-1 > ul > li {
+  display: inline-block;
+  position: relative;
+}
+.menu-box-1 ul > li > a {
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+}
+.menu-box-1 > ul > li > ul {
+  display: none;
+  position: absolute;
+  /* 위치 지정해주자 */
+  top: 100%;
+  left: 0;
+}
+.menu-box-1 ul > li:hover > a {
+  background: black;
+  color: white;
+}
+.menu-box-1 > ul > li:hover > ul {
+  display: block;
+}
