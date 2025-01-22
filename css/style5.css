@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body.active {
+  background-color: #efefef;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 10px solid red;
+}
+
+div.active {
+  background-color: gold;
+}
