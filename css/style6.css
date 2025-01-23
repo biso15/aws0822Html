@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+section,
+div,
+article,
+nav,
+span {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid black;
+}
+
+div {
+  border-color: #333;
+}
+
+article {
+  border-color: #666;
+}
+
+nav {
+  border-color: #999;
+}
+
+span {
+  border-color: #ccc;
+}
